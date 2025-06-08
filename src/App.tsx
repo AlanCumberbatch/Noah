@@ -21,7 +21,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <button onClick={() => window.open('https://alancumberbatch.github.io/Noah_Cesium/', '_blank')}>
+        <button onClick={() => window.location.href = 'https://alancumberbatch.github.io/Noah_Cesium/'}>
           Open Noah Cesium
         </button>
         <p>
