@@ -24,6 +24,9 @@ function App() {
         <button onClick={() => window.location.href = 'https://alancumberbatch.github.io/Noah_Cesium/'}>
           Open Noah Cesium
         </button>
+        <button onClick={() => window.location.href = 'https://alancumberbatch.github.io/Noah_Three.js/'}>
+          Open Noah Three.js
+        </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
